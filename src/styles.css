@@ -37,7 +37,30 @@ body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.6;
   background-image: url(/assets/mars.jpg);
+  background-size: cover;
   height: 100vh;
   overflow: hidden;
   color: var(--clr-light);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+}
+
+a {
+  color: var(--clr-accent);
+}
+a:hover {
+  color: var(--clr-accent-dark);
+}
+
+.main-title {
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-light);
+  text-transform: uppercase;
+  color: var(--clr-accent);
+  letter-spacing: 2px;
+  grid-column: 1/-1;
 }
